@@ -1,0 +1,48 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Check Profit/Loss on your stock</title>
+</head>
+<body id="col1">
+    <nav class="navigation ">
+        <div class="nav-brand">Check Profit/Loss on your stock</div>
+    </nav>
+    <div class="container" >
+      
+            <h2 class="heading"> Let's check it out </h2>
+             <br>
+            <form class="form">
+                <div class="form-section">
+                    <label for="pprice">Enter Purchase Price:</label>
+                    <input type="number" id="pprice" required >
+                </div>
+                <div class="form-section">
+                    <label for="stock">Enter Stock Quantity:</label>
+                    <input required type="number" id="stock" >
+                </div>
+                <div class="form-section">
+                    <label for="cprice">Enter Current Price:</label>
+                    <input required type="number" id="cprice" >
+                </div>
+                <button type="submit" class="btn col1">Check</button>
+            </form>
+            <br>
+            <section>
+            <h1 class="result"></h1>
+        </section>
+        
+    </div>
+    <br>
+    <footer class="footer">
+        <div class="footer-header">@Aryanand Arnav</div>
+        <div>2021</div>
+  
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

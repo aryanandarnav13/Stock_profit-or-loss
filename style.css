@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  :root {
+    --primary-color: #023363;
+    --secondary-color: white;
+    
+  }
+
+  body {
+    width: 100%;
+    background-image: linear-gradient(0deg, transparent 24%, rgba(22, 166, 218, 1) 25%, rgba(22, 166, 218, 1) 26%, transparent 27%, transparent 74%, rgba(22, 166, 218, 1) 75%, rgba(22, 166, 218, 1) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(22, 166, 218, 1) 25%, rgba(22, 166, 218, 1) 26%, transparent 27%, transparent 74%, rgba(22, 166, 218, 1) 75%, rgba(22, 166, 218, 1) 76%, transparent 77%, transparent);
+    background-size: 10px 10px;
+    height: 100%;
+    font-family: 'Gowun Batang', serif;
+    }
+
+  
+  .navigation{
+    height: 5rem;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1rem;
+}
+  .container {
+      text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+  }
+  
+  
+  .heading {
+
+    text-align: center;
+   
+  }
+
+  .form {
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .form-section {
+    margin-bottom: 1rem;
+  }
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  input {
+    width: 60%;
+    font: inherit;
+    padding: 0.5rem;
+  }
+  
+  .btn {
+    width: 60%;
+    background-color: black;
+    color: var(--secondary-color);
+    border: 1px solid rgba(22, 166, 218, 1);
+    font: inherit;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  
+  .result {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+
+  .footer{
+    position: fixed;
+    margin-top: 1rem;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-bottom-right-radius: 1rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: larger
+}
